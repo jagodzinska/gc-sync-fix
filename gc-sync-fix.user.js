@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Geoconnections Sync-Fix
 // @namespace    jago/gc-sync-fix
-// @version      0.1.0
+// @version      0.1.1
 // @description  Behebt einen Anzeigefehler auf geotrivia.com: Wurde Geoconnections auf einem anderen Gerät gespielt, zeigt die Ergebnis-Karte dort immer "0 / 4" Fehler. Das Skript liest die synchronisierte Fehlerzahl aus den Serverdaten (serverGameResult) und trägt sie in die Karte ein.
 // @author       jago/claude
 // @license      MIT
+// @homepageURL  https://greasyfork.org/de/scripts/587743-geoconnections-sync-fix
 // @match        https://geotrivia.com/*
 // @run-at       document-idle
 // @grant        none
